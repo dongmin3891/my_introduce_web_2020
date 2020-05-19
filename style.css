@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 7px solid #e0e0e0;
+}
+
+header .menu {
+  display: flex;
+  margin: 20px;
+}
+
+header .menu li {
+  padding-right: 10px;
+}
+
+header .menu li button {
+  color: white;
+  font-size: 12px;
+  width: 100px;
+  height: 30px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  border-radius: 5%;
+  outline: none;
+  box-shadow: 2px 2px 0px grey;
+  background-color: #25a59a;
+}
+
+ul {
+  list-style: none;
+}
+
+/* body */
+body {
+  border-right: 3px solid #e0e0e0;
+  border-left: 3px solid #e0e0e0;
+  font-family: "Nanum Pen Script", cursive;
+  font-family: "Inconsolata", monospace;
+}
+.body {
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.body .title {
+  padding-bottom: 20px;
+}
+
+strong {
+  font-size: 11px;
+}
+
+.body .myIntroAndMyImgButton {
+  display: flex;
+  justify-content: center;
+}
+.body .myIntroAndMyImgButton li {
+  padding: 20px 10px 20px 0;
+}
+
+.body .myIntroAndMyImgButton li button {
+  color: white;
+  font-size: 12px;
+  width: 70px;
+  height: 70px;
+}
+
+.body section img {
+  width: 50%;
+  padding-bottom: 35px;
+}
+
+footer {
+  border-top: 7px solid #e0e0e0;
+  padding-top: 20px;
+  color: grey;
+}
